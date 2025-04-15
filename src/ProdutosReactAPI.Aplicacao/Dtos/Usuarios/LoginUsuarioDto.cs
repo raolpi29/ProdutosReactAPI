@@ -1,0 +1,8 @@
+﻿namespace ProdutosReactAPI.Aplicacao.Dtos.Usuarios
+{
+    public class LoginUsuarioDto
+    {
+        public string Login { get; set; } = string.Empty;
+        public string Senha { get; set; } = string.Empty;
+    }
+}

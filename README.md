@@ -83,5 +83,7 @@ Durante a execução do `migrations`, a aplicação já cria automaticamente um 
 
 > Esses dados podem ser utilizados para autenticação inicial e testes da aplicação.
 
-> **IMPORTANTE:** A criação do usuário foi passado pela service, pois necessita de criptografia dos dados, por isso não será disponibilizado script com a criação do mesmo, qualquer dúvida pode ser verificado no API > Seed > SeedData.cs
+> **IMPORTANTE:** A criação do usuário foi implementada na camada de serviço (`Service`), pois envolve a criptografia dos dados. Por esse motivo, **não será disponibilizado script SQL** para criação manual.  
+> Para mais detalhes, consulte o arquivo:  
+> [`src/ProdutosReactAPI.API/Seed/SeedData.cs`](src/ProdutosReactAPI.API/Seed/SeedData.cs)
 ---
